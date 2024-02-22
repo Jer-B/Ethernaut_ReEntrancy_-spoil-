@@ -262,7 +262,7 @@ contract ReentranceAttack {
 </p>
 <br/>
 
-1. 結果を ethernaut に提出します。
+4. 結果を ethernaut に提出します。
 
 - レベルが完了。
 
