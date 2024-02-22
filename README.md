@@ -62,7 +62,7 @@ contract Reentrance {
 }
 ```
 
-- What is going to happen, we need to call `donae` to set a `value` to the balance of contract used for the attack.
+- What is going to happen, we need to call `donate` to set a `value` to the balance of contract used for the attack.
 - Then call `withdraw` to empty the contract. Since the state changes happen later on, the `receive` function will be called and the attack will be repeated until the attacked contract balance is less than `0.001eth`.
 
 1. Create an external contract calling the instance of the contract made on Ethernaut.
